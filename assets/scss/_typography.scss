@@ -1,0 +1,37 @@
+html {
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+
+  @include media('>=sm') {
+    font-size: 16px;
+  }
+  @include media('>=max-width') {
+    font-size: 18px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headline-font);
+  font-weight: var(--headline-font-weight-bold);
+}
+
+h1 {
+  line-height: 1;
+}
+
+a:link,
+a:visited {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.lachs-text {
+  color: var(--color-primary);
+}

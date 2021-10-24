@@ -1,0 +1,15 @@
+.cta-link {
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  background: var(--color-primary);
+  border-radius: var(--border-radius);
+  display: flex;
+  gap: var(--gap);
+  align-items: center;
+
+  span {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 0.5em 0.8em;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--white);
+  }
+}

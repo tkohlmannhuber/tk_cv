@@ -1,0 +1,37 @@
+:root {
+  // Fonts
+  --text-font: menco, sans-serif;
+  --text-font-weight-light: 300;
+  --text-font-weight-medium: 500;
+  --text-font-weight-bold: 700;
+  --headline-font: 'Playfair Display', serif;
+  --headline-font-weight-bold: 700;
+
+  // Font Sizes
+
+  --hero-h1-font-size: 3.5em;
+  --h2-font-size: 2.14em;
+
+  // Colors
+  --color-primary: #e76f51;
+  --color-secondary: #4ecdc4;
+
+  --yellow: #ffe66d;
+  --dark-green: #1a535c;
+  --red: #fb475a;
+
+  --black: #000;
+  --white: #fff;
+
+  --nav-overlay: rgba(0, 0, 0, 0.9);
+
+  --card-bg: #171717;
+
+  // Border
+
+  --border-radius: 10px;
+
+  // Spacing
+  --content-wrapper: 20px;
+  --gap: 20px;
+}
