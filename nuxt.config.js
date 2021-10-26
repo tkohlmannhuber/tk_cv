@@ -38,7 +38,7 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'
       }
-    ]
+    ],
   },
 
 
@@ -55,6 +55,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -68,4 +69,17 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  image: {
+    // The screen sizes predefined by `@nuxt/image`:
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+      '2xl': 1536
+    },
+  }
 }

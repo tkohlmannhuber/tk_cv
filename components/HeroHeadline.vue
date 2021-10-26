@@ -7,7 +7,7 @@
     <a class="cta-link" href="mailto:thomas.kohlmannhuber@yahoo.de">
       Get in contact
       <span>
-        <img src="~assets/images/arrow-right.svg" alt="" />
+        <img src="~assets/images/icons/arrow-right.svg" alt="" />
       </span>
     </a>
   </div>
@@ -17,7 +17,6 @@
 @import '~assets/scss/main';
 
 .headline-container {
-  padding: 0 var(--content-wrapper);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

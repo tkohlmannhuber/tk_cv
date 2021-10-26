@@ -31,14 +31,14 @@
 
 $breakpoints: (
   'min-width': 320px,
+  'xxs': 375px,
   'xs': 480px,
-  'sm': 769px,
+  'sm': 768px,
   'md': 1024px,
   'lg': 1280px,
   'xl': 1440px,
   'xxl': 1680px,
   'max-width': 1930px,
-  
 ) !default;
 
 ///
@@ -58,8 +58,10 @@ $media-expressions: (
   'handheld': 'handheld',
   'landscape': '(orientation: landscape)',
   'portrait': '(orientation: portrait)',
-  'retina2x': '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)',
-  'retina3x': '(-webkit-min-device-pixel-ratio: 3), (min-resolution: 350dpi), (min-resolution: 3dppx)',
+  'retina2x':
+    '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)',
+  'retina3x':
+    '(-webkit-min-device-pixel-ratio: 3), (min-resolution: 350dpi), (min-resolution: 3dppx)',
 ) !default;
 
 ///
@@ -536,7 +538,10 @@ $im-no-media-expressions: ('screen', 'portrait', 'landscape') !default;
 
   // Update global configuration
   $breakpoints: map-merge($breakpoints, $tweakpoints) !global;
-  $media-expressions: map-merge($media-expressions, $tweak-media-expressions) !global;
+  $media-expressions: map-merge(
+    $media-expressions,
+    $tweak-media-expressions
+  ) !global;
 
   @content;
 
@@ -582,7 +587,7 @@ $im-no-media-expressions: ('screen', 'portrait', 'landscape') !default;
   } @else if ($im-media-support and length($conditions) > 0) {
     @media #{unquote(parse-expression(nth($conditions, 1)))} {
       // Recursive call
-      @include media(slice($conditions, 2) ...) {
+      @include media(slice($conditions, 2)...) {
         @content;
       }
     }

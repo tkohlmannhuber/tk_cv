@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header :class="{ scrolled: scrollPosition > 0 }">
     <NuxtLink to="/">
       <Logo />
     </NuxtLink>
@@ -21,12 +21,22 @@ export default {
   data() {
     return {
       isActive: false,
+      scrollPosition: null,
     }
   },
+
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll)
+  },
+
   methods: {
     showMenu() {
       this.$emit('showMenu')
       this.isActive = !this.isActive
+    },
+
+    updateScroll() {
+      this.scrollPosition = window.scrollY
     },
   },
 }
@@ -36,10 +46,22 @@ export default {
 @import '~assets/scss/main';
 
 header {
-  padding: var(--content-wrapper);
+  padding: var(--header-wrapper);
   display: flex;
   justify-content: space-between;
+  transition: all 0.2s;
+  width: 100%;
+  position: fixed;
+  background: var(--header-overlay);
+  z-index: 1000;
 }
+
+// .scrolled {
+//   position: fixed;
+//   padding: var(--header-wrapper);
+//   top: 0;
+//   background: var(--header-overlay);
+// }
 
 .burger-btn-container {
   width: 3.35em;

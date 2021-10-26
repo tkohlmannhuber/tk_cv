@@ -1,0 +1,37 @@
+<template>
+  <figure>
+    <nuxt-img src="/hero-img.png" />
+  </figure>
+</template>
+
+<style lang="scss" scoped>
+@import '~assets/scss/main';
+
+figure {
+  align-self: center;
+  position: relative;
+
+  &:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  &:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--black-overlay);
+  }
+}
+</style>
