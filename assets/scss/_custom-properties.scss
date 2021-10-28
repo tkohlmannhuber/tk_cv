@@ -57,9 +57,11 @@
     --section-spacing: 80px;
   }
 }
+
 @include media('>=lg') {
   :root {
     //Spacing
+    --hero-h1-font-size: 3.75em;
     --section-spacing: 100px;
   }
 }

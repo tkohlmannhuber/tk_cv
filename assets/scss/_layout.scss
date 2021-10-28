@@ -25,10 +25,7 @@ body {
 
 .wrapper {
   padding: 0 var(--content-wrapper);
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1400px;
-
-  @include media('>=lg') {
-    padding: 0;
-  }
 }

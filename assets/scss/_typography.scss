@@ -4,10 +4,7 @@ html {
   font-style: normal;
   font-size: 16px;
 
-  @include media('>=sm') {
-    font-size: 16px;
-  }
-  @include media('>=max-width') {
+  @include media('>=xl') {
     font-size: 18px;
   }
 }
@@ -27,7 +24,7 @@ h1 {
 }
 
 .section-headline {
-  font-size: 2em;
+  font-size: var(--h2-font-size);
 }
 
 a:link,

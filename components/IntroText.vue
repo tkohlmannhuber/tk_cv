@@ -1,7 +1,7 @@
 <template>
   <article>
-    <div class="headline-intro-container">
-      <h2 class="section-headline">Whoami<span class="lachs-text">!</span></h2>
+    <h2 class="section-headline">Whoami<span class="lachs-text">!</span></h2>
+    <div class="intro-text-container">
       <p class="intro-text-main">
         Hi, my name is <span class="lachs-text">Thomas</span> Kohlmannhuber. I’m
         a frontend Developer based in Vienna. After working for 10 years as
@@ -10,13 +10,14 @@
         year of learning the basics of html, css and js i started my job as
         junior Developer at Floatwork.
       </p>
+      <p class="intro-text">
+        At Floatwork I’ve learned some more basics like working with git (making
+        branches), using the terminal, making good coffee and how to work with
+        Wordpress. After some smaller styling Tasks I’ve got my first own
+        Project for Weinburgenland. While working on multiple different
+        Wordpress Projects
+      </p>
     </div>
-    <p class="intro-text">
-      At Floatwork I’ve learned some more basics like working with git (making
-      branches), using the terminal, making good coffee and how to work with
-      Wordpress. After some smaller styling Tasks I’ve got my first own Project
-      for Weinburgenland. While working on multiple different Wordpress Projects
-    </p>
   </article>
 </template>
 
@@ -28,10 +29,14 @@ article {
   gap: var(--gap);
 }
 
-.headline-intro-container {
-  display: flex;
-  flex-direction: column;
+.intro-text-container {
+  display: grid;
   gap: var(--gap);
+
+  @include media('>=md') {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15%;
+  }
 }
 
 .intro-text-main {
