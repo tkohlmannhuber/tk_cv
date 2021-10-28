@@ -1,9 +1,19 @@
 <template>
-  <div></div>
+  <section class="wrapper">
+    <Circles />
+    <IntroText />
+    <SingleCircle class="circle" />
+  </section>
 </template>
 
 <style lang="scss" scoped>
-div {
-  height: 100vh;
+section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+
+  .circle {
+    align-self: center;
+  }
 }
 </style>

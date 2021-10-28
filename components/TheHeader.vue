@@ -46,22 +46,19 @@ export default {
 @import '~assets/scss/main';
 
 header {
-  padding: var(--header-wrapper);
+  padding: calc(var(--header-wrapper) / 2) var(--header-wrapper);
   display: flex;
   justify-content: space-between;
   transition: all 0.2s;
   width: 100%;
   position: fixed;
+  z-index: 1000000;
   background: var(--header-overlay);
-  z-index: 1000;
 }
 
-// .scrolled {
-//   position: fixed;
-//   padding: var(--header-wrapper);
-//   top: 0;
-//   background: var(--header-overlay);
-// }
+.scrolled {
+  padding: calc(var(--header-wrapper) / 2);
+}
 
 .burger-btn-container {
   width: 3.35em;
