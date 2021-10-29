@@ -1,7 +1,14 @@
+html {
+  cursor: none;
+}
+
 body {
   background-color: var(--black);
   color: var(--white);
-  // cursor: none;
+}
+
+a {
+  cursor: none;
 }
 
 .cursor_outer {
@@ -12,7 +19,9 @@ body {
   border-radius: 50%;
   transition-duration: 200ms;
   transition-timing-function: ease-out;
-  z-index: 100;
+  transform: translate(-50%, -50%);
+  z-index: 10000000000;
+  pointer-events: none;
 }
 .cursor_inner {
   position: absolute;
@@ -20,7 +29,9 @@ body {
   height: 6px;
   background: var(--color-secondary);
   border-radius: 50%;
-  z-index: 100;
+  z-index: 10000000000;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 .wrapper {

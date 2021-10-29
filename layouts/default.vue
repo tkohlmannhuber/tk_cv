@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <div ref="cursor_outer" class="cursor_outer"></div>
-    <div ref="cursor_inner" class="cursor_inner"></div> -->
+    <div ref="cursor_outer" class="cursor_outer"></div>
+    <div ref="cursor_inner" class="cursor_inner"></div>
     <transition name="nav">
       <OpenMenu v-if="showMenu" />
     </transition>
@@ -18,29 +18,25 @@ export default {
     }
   },
   mounted() {
-    // this.setCursorOuter()
-    // this.setCursorInner()
+    this.setCursorOuter()
+    this.setCursorInner()
   },
 
   methods: {
-    // setCursorOuter() {
-    //   const cursor = this.$refs.cursor_outer
-    //   document.addEventListener('mousemove', (e) => {
-    //     cursor.setAttribute(
-    //       'style',
-    //       'top: ' + (e.pageY - 15) + 'px; left: ' + (e.pageX - 15) + 'px;'
-    //     )
-    //   })
-    // },
-    // setCursorInner() {
-    //   const cursor = this.$refs.cursor_inner
-    //   document.addEventListener('mousemove', (e) => {
-    //     cursor.setAttribute(
-    //       'style',
-    //       'top: ' + (e.pageY - 3) + 'px; left: ' + (e.pageX - 3) + 'px;'
-    //     )
-    //   })
-    // },
+    setCursorOuter() {
+      const cursor = this.$refs.cursor_outer
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.top = e.pageY + 'px'
+        cursor.style.left = e.pageX + 'px'
+      })
+    },
+    setCursorInner() {
+      const cursor = this.$refs.cursor_inner
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.top = e.pageY + 'px'
+        cursor.style.left = e.pageX + 'px'
+      })
+    },
   },
 }
 </script>
