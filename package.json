@@ -13,7 +13,9 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "hooper": "^0.3.4",
+    "nuxt": "^2.15.7",
+    "vanilla-tilt": "^1.7.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",

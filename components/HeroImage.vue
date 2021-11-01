@@ -1,10 +1,6 @@
 <template>
   <figure>
-    <nuxt-img
-      src="/hero-img.png"
-      alt="Portrait of me"
-      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
-    />
+    <img src="~assets/images/hero-img.png" alt="" />
   </figure>
 </template>
 
