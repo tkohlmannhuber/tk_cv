@@ -23,6 +23,10 @@
   align-items: flex-start;
   gap: calc(var(--gap) / 2);
 
+  @include media('>=md') {
+    grid-column: 1 / span 2;
+  }
+
   h1 {
     display: flex;
     flex-direction: column;

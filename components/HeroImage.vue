@@ -11,27 +11,33 @@ figure {
   align-self: center;
   position: relative;
 
-  &:after {
-    content: '';
-    width: 100%;
-    height: 100%;
+  @include media('>=md') {
     position: absolute;
     left: 0;
-    top: 0;
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0) 50%,
-      rgba(0, 0, 0, 1) 100%
-    );
+    transform: translate(-50%, 3em);
   }
-  &:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: var(--black-overlay);
-  }
+
+  // &:after {
+  //   content: '';
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   background: linear-gradient(
+  //     90deg,
+  //     rgba(255, 255, 255, 0) 50%,
+  //     rgba(0, 0, 0, 1) 100%
+  //   );
+  // }
+  // &:before {
+  //   content: '';
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   background: var(--black-overlay);
+  // }
 }
 </style>

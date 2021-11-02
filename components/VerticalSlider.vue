@@ -2,8 +2,8 @@
   <hooper
     class="slider-container"
     :vertical="true"
-    :itemsToShow="5"
-    :centerMode="true"
+    :items-to-show="5"
+    :center-mode="true"
   >
     <slide><h1>Greiner</h1></slide>
     <slide><h1>Greiner</h1></slide>

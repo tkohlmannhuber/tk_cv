@@ -45,7 +45,9 @@ export default {
 
   mounted() {
     const element = this.$refs.card
-    VanillaTilt.init(element)
+    VanillaTilt.init(element, {
+      gyroscope: true,
+    })
   },
 }
 </script>
@@ -89,7 +91,7 @@ export default {
     height: 2.5em;
     border-radius: 100%;
     top: 0;
-    transform: translateY(-50%) translateZ(20px);
+    transform: translateY(-50%) translateZ(50px);
   }
 
   &:first-child {
@@ -133,7 +135,7 @@ export default {
   }
 
   ul {
-    transform: translateZ(20px);
+    transform: translateZ(50px);
   }
 }
 
@@ -141,7 +143,7 @@ export default {
   font-size: var(--card-headline-font-size);
   margin-bottom: var(--gap);
   position: relative;
-  transform: translateZ(20px);
+  transform: translateZ(50px);
 
   &:after {
     content: '';
