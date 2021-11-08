@@ -14,7 +14,6 @@
   flex-direction: column;
   gap: calc(var(--gap) * 2);
   padding-top: 7em;
-  margin-bottom: var(--section-spacing);
 
   @include media('>=md') {
     display: grid;

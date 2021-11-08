@@ -1,8 +1,7 @@
 <template>
   <section class="wrapper">
-    <Circles class="circle-top" />
     <IntroText />
-    <SingleCircle class="circle-bottom" />
+    <MultipleCircle class="circle-bottom" />
   </section>
 </template>
 
@@ -13,7 +12,6 @@ section {
   display: flex;
   flex-direction: column;
   gap: var(--gap);
-  margin-bottom: var(--section-spacing);
 
   .circle-top {
     @include media('>=md') {
@@ -21,6 +19,7 @@ section {
     }
   }
   .circle-bottom {
+    margin-top: var(--gap);
     align-self: center;
   }
 }

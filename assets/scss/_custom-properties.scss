@@ -9,7 +9,7 @@
 
   // Font Sizes
   --hero-h1-font-size: 3.5em;
-  --h2-font-size: 2.15em;
+  --h2-font-size: 2.5em;
 
   --card-headline-font-size: 2em;
 
@@ -40,6 +40,7 @@
   --content-wrapper: 20px;
   --header-wrapper: 20px;
   --gap: 20px;
+  --section-headline-spacing: 40px;
 
   --section-spacing: 60px;
 }
@@ -57,6 +58,9 @@
     --content-wrapper: 80px;
     --gap: 20px;
     --section-spacing: 80px;
+
+    //Font Size
+    --h2-font-size: 3em;
   }
 }
 
@@ -65,5 +69,6 @@
     //Spacing
     --hero-h1-font-size: 3.75em;
     --section-spacing: 100px;
+    --h2-font-size: 3.5em;
   }
 }

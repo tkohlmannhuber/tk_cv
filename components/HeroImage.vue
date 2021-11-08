@@ -15,6 +15,10 @@ figure {
     position: absolute;
     left: 0;
     transform: translate(-50%, 3em);
+
+    img {
+      height: 80vh;
+    }
   }
 
   // &:after {

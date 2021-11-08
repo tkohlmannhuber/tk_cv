@@ -10,11 +10,11 @@
 <style lang="scss" scoped>
 @import '~assets/scss/main';
 
-section {
-  margin-bottom: var(--section-spacing);
-}
 .section-headline {
-  text-align: center;
   margin-bottom: calc(var(--gap) * 2);
+
+  @include media('>=md') {
+    margin-bottom: calc(var(--gap) * 4);
+  }
 }
 </style>
