@@ -11,7 +11,7 @@
         transform="translate(36 59)"
         fill="#fff"
         font-size="41"
-        font-family="Daniel-Regular, Daniel"
+        font-family="Daniel"
       >
         <tspan x="0" y="0">T</tspan>
       </text>
@@ -20,7 +20,7 @@
         transform="translate(67 59)"
         fill="#fff"
         font-size="41"
-        font-family="Daniel-Regular, Daniel"
+        font-family="Daniel"
       >
         <tspan x="0" y="0">k</tspan>
       </text>
@@ -30,7 +30,7 @@
         transform="translate(61 57)"
         fill="#ff8500"
         font-size="20"
-        font-family="Daniel-Regular, Daniel"
+        font-family="Daniel"
       >
         <tspan x="0" y="0">.</tspan>
       </text>

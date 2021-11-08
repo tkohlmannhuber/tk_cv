@@ -37,3 +37,13 @@ a:visited {
 .lachs-text {
   color: var(--color-primary);
 }
+
+/////// DANIEL FONT ////////
+
+@font-face {
+  font-family: 'Daniel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Daniel-Regular-webfont.woff') format('truetype');
+}

@@ -4,7 +4,7 @@
     <IntroSection />
     <ExperienceSection />
     <CvSection />
-    <ProjectsSection />
+    <!-- <ProjectsSection /> -->
   </main>
 </template>
 
