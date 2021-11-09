@@ -1,9 +1,9 @@
-html {
-  @include media('>=sm') {
-    scroll-snap-type: y;
-  }
-  // cursor: none;
-}
+// html {
+//   // @include media('>=sm') {
+//   //   scroll-snap-type: y;
+//   // }
+//   // cursor: none;
+// }
 
 main > section {
   display: flex;
@@ -12,10 +12,10 @@ main > section {
   align-items: center;
   margin-bottom: var(--section-spacing);
   min-block-size: 100vh;
-  @include media('>=xl') {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-  }
+  // @include media('>=xl') {
+  //   scroll-snap-align: start;
+  //   scroll-snap-stop: always;
+  // }
 }
 
 body {
