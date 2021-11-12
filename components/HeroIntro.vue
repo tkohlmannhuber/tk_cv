@@ -2,10 +2,12 @@
   <div class="hero-intro-text">
     <Circles />
     <h3 class="lachs-text">Whoami</h3>
-    <p>Living in Vienna working as Webdeveloper and looking for a new job!</p>
     <p>
-      Hey i’m looking for a new challange to build cool stuff with modern Web
-      technologies and technics!
+      Living in Vienna, working as a Web developer and looking for a new job!
+    </p>
+    <p>
+      Hey, I’m looking for a new challenge to build cool stuff with modern web
+      technologies and techniques!
     </p>
   </div>
 </template>

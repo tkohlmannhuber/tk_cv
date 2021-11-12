@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="wrapper">
     <h2 class="section-headline">
-      What i have learned<span class="lachs-text">!</span>
+      What I have learned<span class="lachs-text">!</span>
     </h2>
     <CardGrid />
   </section>
