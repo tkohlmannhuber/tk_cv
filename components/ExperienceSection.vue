@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper">
+  <section id="skills" class="wrapper">
     <h2 class="section-headline">
       What i have learned<span class="lachs-text">!</span>
     </h2>

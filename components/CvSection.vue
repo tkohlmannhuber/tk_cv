@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="cv">
     <div class="wrapper">
       <h2 class="section-headline">
         Back in the days<span class="lachs-text">!</span>
@@ -7,7 +7,7 @@
       <ul class="experience-list">
         <li
           v-for="year in experienceData"
-          :key="year.year"
+          :key="year.task"
           class="experience-item"
         >
           <h3>
@@ -27,27 +27,6 @@ export default {
   data() {
     return {
       experienceData: [
-        {
-          year: {
-            start: '1999',
-            end: '2003',
-          },
-          education: 'Volkschule Kremsmünster',
-        },
-        {
-          year: {
-            start: '2003',
-            end: '2007',
-          },
-          education: 'Hauptschule Kremsmünster',
-        },
-        {
-          year: {
-            start: '2007',
-            end: '2008',
-          },
-          education: 'Handelsschule Kirchdorf',
-        },
         {
           year: {
             start: '2008',
@@ -126,7 +105,6 @@ section {
   width: 100%;
   grid-template-columns: repeat(1, 1fr);
   gap: calc(var(--gap) * 4);
-  background: rgba(0, 0, 0, 0.7);
   border-radius: var(--border-radius);
   padding: 3em;
 

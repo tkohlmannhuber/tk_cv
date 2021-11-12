@@ -17,7 +17,10 @@
           (making branches), using the terminal, making good coffee and how to
           work with Wordpress. After some smaller styling Tasks I’ve got my
           first own Project for Weinburgenland. While working on multiple
-          different Wordpress Projects
+          different Wordpress projects i figured out that i want to work with
+          newer technologies like Vue. I am pretty intrested in Web stuff, so
+          i'm watching a lot of videos and reading Articles about Webdevelopment
+          and Webdesign.
         </p>
       </div>
     </article>

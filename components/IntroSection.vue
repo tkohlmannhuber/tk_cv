@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper">
+  <section id="whoami" class="wrapper">
     <IntroText />
     <MultipleCircle class="circle-bottom" />
   </section>

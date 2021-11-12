@@ -1,9 +1,9 @@
-// html {
-//   // @include media('>=sm') {
-//   //   scroll-snap-type: y;
-//   // }
-//   // cursor: none;
-// }
+html {
+  // @include media('>=sm') {
+  //   scroll-snap-type: y;
+  // }
+  cursor: none;
+}
 
 main > section {
   display: flex;
@@ -23,9 +23,15 @@ body {
   color: var(--white);
 }
 
-// a {
-//   cursor: none;
-// }
+a {
+  cursor: none;
+
+  &:hover {
+    .cursor_outer {
+      transform: scale(5);
+    }
+  }
+}
 
 .cursor_outer {
   position: absolute;

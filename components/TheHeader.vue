@@ -61,8 +61,8 @@ header {
 }
 
 .burger-btn-container {
-  width: 3.35em;
-  height: 3.35em;
+  width: 3em;
+  height: 3em;
   border: 3px solid var(--color-secondary);
   border-radius: 50%;
   display: flex;

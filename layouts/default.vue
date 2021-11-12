@@ -1,9 +1,9 @@
 <template>
   <div>
-    <!-- <div ref="cursor_outer" class="cursor_outer"></div>
-    <div ref="cursor_inner" class="cursor_inner"></div> -->
+    <div ref="cursor_outer" class="cursor_outer"></div>
+    <div ref="cursor_inner" class="cursor_inner"></div>
     <transition name="nav">
-      <OpenMenu v-if="showMenu" />
+      <OpenMenu v-if="showMenu" @closeNav="showMenu = false" />
     </transition>
     <TheHeader @showMenu="showMenu = !showMenu" />
     <Nuxt />
@@ -17,27 +17,27 @@ export default {
       showMenu: false,
     }
   },
-  // mounted() {
-  //   this.setCursorOuter()
-  //   this.setCursorInner()
-  // },
+  mounted() {
+    this.setCursorOuter()
+    this.setCursorInner()
+  },
 
-  // methods: {
-  //   setCursorOuter() {
-  //     const cursor = this.$refs.cursor_outer
-  //     document.addEventListener('mousemove', (e) => {
-  //       cursor.style.top = e.pageY + 'px'
-  //       cursor.style.left = e.pageX + 'px'
-  //     })
-  //   },
-  //   setCursorInner() {
-  //     const cursor = this.$refs.cursor_inner
-  //     document.addEventListener('mousemove', (e) => {
-  //       cursor.style.top = e.pageY + 'px'
-  //       cursor.style.left = e.pageX + 'px'
-  //     })
-  //   },
-  // },
+  methods: {
+    setCursorOuter() {
+      const cursor = this.$refs.cursor_outer
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.top = e.pageY + 'px'
+        cursor.style.left = e.pageX + 'px'
+      })
+    },
+    setCursorInner() {
+      const cursor = this.$refs.cursor_inner
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.top = e.pageY + 'px'
+        cursor.style.left = e.pageX + 'px'
+      })
+    },
+  },
 }
 </script>
 
