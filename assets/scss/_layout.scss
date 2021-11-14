@@ -32,6 +32,7 @@ a {
 .cursor_outer {
   display: none;
   @include media('>=md') {
+    display: block;
     position: absolute;
     width: 30px;
     height: 30px;
@@ -48,6 +49,7 @@ a {
 .cursor_inner {
   display: none;
   @include media('>=md') {
+    display: block;
     position: absolute;
     width: 10px;
     height: 10px;

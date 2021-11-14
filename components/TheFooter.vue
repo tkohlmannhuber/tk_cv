@@ -13,8 +13,12 @@
         </li>
       </ul>
       <div>
-        <a href="https://nuxtjs.org">Made with <img src="" alt="" /></a>
-        <a href="https://netlify.com">Hosted on <img src="" alt="" /></a>
+        <a href="https://nuxtjs.org"
+          ><span>Made with</span><img src="~assets/images/nuxt.png" alt=""
+        /></a>
+        <a href="https://netlify.com"
+          ><span>Hosted on</span><img src="~assets/images/netlify.png" alt=""
+        /></a>
       </div>
     </div>
   </footer>
@@ -39,6 +43,16 @@
   div {
     display: flex;
     gap: var(--gap);
+
+    img {
+      max-height: 1.2em;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: calc(var(--gap) / 2);
+    }
   }
 
   ul {
@@ -46,7 +60,7 @@
     gap: var(--gap);
     flex-direction: column;
 
-    @include media('>=md') {
+    @include media('>=lg') {
       flex-direction: row;
     }
   }
