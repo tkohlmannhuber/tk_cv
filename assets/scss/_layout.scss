@@ -27,28 +27,36 @@ a {
   cursor: none;
 }
 
+@include media('>=md') {
+}
 .cursor_outer {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border: 3px solid var(--white);
-  border-radius: 50%;
-  transition-duration: 100ms;
-  transition-timing-function: ease-out;
-  transform: translate(-50%, -50%);
-  z-index: 10000000000;
-  pointer-events: none;
+  display: none;
+  @include media('>=md') {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 3px solid var(--white);
+    border-radius: 50%;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+    transform: translate(-50%, -50%);
+    z-index: 10000000000;
+    pointer-events: none;
+  }
 }
 
 .cursor_inner {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: var(--color-secondary);
-  border-radius: 50%;
-  z-index: 10000000000;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
+  display: none;
+  @include media('>=md') {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--color-secondary);
+    border-radius: 50%;
+    z-index: 10000000000;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
 }
 
 .wrapper {

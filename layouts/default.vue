@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <div ref="cursor_outer" class="cursor_outer"></div> -->
+    <div ref="cursor_outer" class="cursor_outer"></div>
     <div ref="cursor_inner" class="cursor_inner"></div>
     <transition name="nav">
       <OpenMenu v-if="showMenu" @closeNav="closeNavShowBurger" />
