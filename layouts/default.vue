@@ -3,7 +3,7 @@
     <div ref="cursor_outer" class="cursor_outer"></div>
     <div ref="cursor_inner" class="cursor_inner"></div>
     <transition name="nav">
-      <OpenMenu v-if="showMenu" @closeNav="showMenu = false" />
+      <OpenMenu v-if="showMenu" @closeNav="closeNavShowBurger" />
     </transition>
     <TheHeader @showMenu="showMenu = !showMenu" />
     <Nuxt />
@@ -36,6 +36,10 @@ export default {
         cursor.style.top = e.pageY + 'px'
         cursor.style.left = e.pageX + 'px'
       })
+    },
+    closeNavShowBurger() {
+      this.showMenu = false
+      // this.isActive = false
     },
   },
 }

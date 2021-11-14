@@ -25,12 +25,6 @@ body {
 
 a {
   cursor: none;
-
-  &:hover {
-    .cursor_outer {
-      transform: scale(5);
-    }
-  }
 }
 
 .cursor_outer {
@@ -39,16 +33,17 @@ a {
   height: 30px;
   border: 3px solid var(--white);
   border-radius: 50%;
-  transition-duration: 200ms;
+  transition-duration: 100ms;
   transition-timing-function: ease-out;
   transform: translate(-50%, -50%);
   z-index: 10000000000;
   pointer-events: none;
 }
+
 .cursor_inner {
   position: absolute;
-  width: 6px;
-  height: 6px;
+  width: 10px;
+  height: 10px;
   background: var(--color-secondary);
   border-radius: 50%;
   z-index: 10000000000;

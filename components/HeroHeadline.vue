@@ -36,7 +36,7 @@
   h2 {
     font-family: var(--text-font);
     font-weight: var(--text-font-weight-medium);
-    font-size: var(--h2-font-size);
+    font-size: 2.5em;
   }
 }
 </style>
