@@ -83,12 +83,7 @@ section {
     width: 100%;
     top: 0;
     left: 0;
-    background: radial-gradient(
-      circle,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(0, 0, 0, 1) 60%,
-      rgba(0, 0, 0, 1) 100%
-    );
+    background: radial-gradient(circle, hsla(0, 0%, 0%, 0), #000 60%, #000);
     opacity: 1;
   }
 
