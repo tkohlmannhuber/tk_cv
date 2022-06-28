@@ -37,7 +37,7 @@ export default {
         },
         {
           type: 'Frameworks',
-          items: ['vue.js', 'nuxt.js', 'laravel'],
+          items: ['vue.js', 'nuxt.js', 'laravel', 'tailwind'],
         },
       ],
     }

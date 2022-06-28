@@ -6,7 +6,7 @@
       Living in Vienna, working as a Web developer and looking for a new job!
     </p>
     <p>
-      Hey, I’m looking for a new challenge to build cool stuff with modern web
+      Hey, I'm looking for a new challenge to build cool stuff with modern web
       technologies and techniques!
     </p>
   </div>

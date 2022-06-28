@@ -1,6 +1,6 @@
 <template>
   <!-- <button @click.prevent="slidePrev">prev</button>
-    <button @click.prevent="slideNext">next</button> -->
+  <button @click.prevent="slideNext">next</button> -->
   <hooper ref="carousel" :settings="hooperSettings">
     <slide class="single-slide">
       <img src="~/assets/images/project-slider/ipito-desk.png" alt="" />
