@@ -3,8 +3,8 @@
     <div class="bottom-bar">
       <ul>
         <li>Thomas Kohlmannhuber</li>
-        <li>Flachgasse 49</li>
-        <li>1150 Wien</li>
+        <li>Lazarettgasse 41</li>
+        <li>1090 Wien</li>
         <li><a href="tel:+4369917326885">+4369917326885</a></li>
         <li>
           <a href="mailto:thomas.kohlmannhuber@yahoo.de">
