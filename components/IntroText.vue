@@ -5,22 +5,26 @@
     <article>
       <div class="intro-text-container">
         <p class="intro-text-main">
-          Hi, my name is <span class="lachs-text">Thomas</span> Kohlmannhuber.
-          I'm a frontend developer based in Vienna. After working for 10 years
-          as an electrician in Upper Austria, I decided to move to Vienna where
-          I started learning Web design and development at the SAE Vienna. After
-          the first year of learning the basics of HTML, CSS and JS, I started
-          my job as a junior developer at Floatwork.
+          Hi, I'm <span class="lachs-text">Thomas Kohlmannhuber</span>, a
+          frontend developer based in Vienna, specializing in building websites
+          with WordPress and Vue.js. With a passion for coding and a keen eye
+          for design, I strive to deliver unique and dynamic web experiences
+          that meet the specific needs of my clients. Whether you are a small
+          business owner, a startup, or a large corporation, I have the
+          expertise and skill set to create a website that not only looks great
+          but also functions flawlessly.
         </p>
         <p class="intro-text">
-          At Floatwork, I've learned some more basics like working with git ,
-          using the terminal, making good coffee and how to work with Wordpress
-          (roots/sage). After some smaller styling tasks, I've got my first own
-          project for Weinburgenland. While working on multiple different
-          Wordpress projects I figured out that I want to work with newer
-          technologies like Vue. I am pretty interested in Web stuff, so I'm
-          watching a lot of videos and reading articles about Web development
-          and Web design.
+          My approach to web development is rooted in collaboration,
+          communication, and attention to detail. I take the time to listen to
+          my clients and understand their goals and objectives before beginning
+          any project. From there, I work closely with them to develop a
+          customized solution that meets their specific needs. With a focus on
+          user experience and accessibility, I ensure that every website I build
+          is not only visually stunning but also easy to navigate and use.
+          Whether you need a simple brochure site or a complex e-commerce
+          platform, I am committed to delivering a website that exceeds your
+          expectations.
         </p>
       </div>
     </article>
