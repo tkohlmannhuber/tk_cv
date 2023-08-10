@@ -10,7 +10,9 @@
     >
       <h3>{{ card.type }}</h3>
       <ul>
-        <li v-for="item in card.items" :key="item.id">{{ item }}</li>
+        <li v-for="item in card.items" :key="item.id" data-aos="fade">
+          {{ item }}
+        </li>
       </ul>
     </div>
   </div>
@@ -18,6 +20,8 @@
 
 <script>
 import VanillaTilt from 'vanilla-tilt'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default {
   data() {
@@ -48,6 +52,8 @@ export default {
     VanillaTilt.init(element, {
       gyroscope: true,
     })
+
+    AOS.init()
   },
 }
 </script>

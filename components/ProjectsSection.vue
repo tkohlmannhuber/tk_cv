@@ -4,7 +4,7 @@
       Projects<span class="lachs-text">!</span>
     </h2>
     <div class="projects-grid">
-      <a href="https://ipito.surf">
+      <!-- <a href="https://ipito.surf">
         <img
           src="~/assets/images/project-slider/ipito-desk.png"
           alt="Ipito Website image"
@@ -16,11 +16,17 @@
             <li>Vue.js & Laravel</li>
           </ul>
         </div>
-      </a>
+      </a> -->
       <!-- <a href="https://brewage.711.at" class="single-slide">
         <img src="~/assets/images/project-slider/brew-desk.png" alt="" />
         <div>
           <h3>Brewage</h3>
+        </div>
+      </a> -->
+      <a href="https://radio-mora.at" class="single-slide">
+        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <div>
+          <h3>Radio Mora</h3>
         </div>
       </a>
       <a href="https://weinburgenland.711.at" class="single-slide">
@@ -28,7 +34,25 @@
         <div>
           <h3>Weinburgenland</h3>
         </div>
-      </a> -->
+      </a>
+      <a href="https://weinburgenland.711.at" class="single-slide">
+        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <div>
+          <h3>Weinburgenland</h3>
+        </div>
+      </a>
+      <a href="https://mcs.at" class="single-slide">
+        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <div>
+          <h3>MCS</h3>
+        </div>
+      </a>
+      <a href="https://wasserspass.at" class="single-slide">
+        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <div>
+          <h3>Wasserspass</h3>
+        </div>
+      </a>
     </div>
   </section>
 </template>
@@ -58,17 +82,17 @@ h2 {
 
 .projects-grid {
   display: grid;
-  gap: var(--gap);
+  gap: calc(var(--gap) * 2);
   grid-template-columns: 80vw;
   @include media('>=sm') {
-    grid-template-columns: 80vw;
+    grid-template-columns: 1fr;
   }
   @include media('>=md') {
-    grid-template-columns: 60vw;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @include media('>=xxl') {
-    grid-template-columns: 50vw;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   a {
@@ -98,7 +122,7 @@ h2 {
   }
 
   h3 {
-    font-size: 3em;
+    font-size: 2em;
     position: relative;
 
     &:after {

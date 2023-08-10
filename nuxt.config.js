@@ -19,29 +19,28 @@ export default {
     link: [
       {
         rel: 'stylesheet',
-        href: 'https://use.typekit.net/krz6hax.css'
-      }
+        href: 'https://use.typekit.net/krz6hax.css',
+      },
     ],
     link: [
       {
         rel: 'preconnect',
-        href: 'https://fonts.googleapis.com'
-      }
+        href: 'https://fonts.googleapis.com',
+      },
     ],
     link: [
       {
         rel: 'preconnect',
-        href: 'https://fonts.gstatic.com'
-      }
+        href: 'https://fonts.gstatic.com',
+      },
     ],
     link: [
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'
-      }
+        href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap',
+      },
     ],
   },
-
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/scss/main.scss'],
@@ -56,9 +55,12 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    ['@nuxt/image', {
-      provider: 'static',
-    }],
+    [
+      '@nuxt/image',
+      {
+        provider: 'static',
+      },
+    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -82,7 +84,7 @@ export default {
       lg: 1024,
       xl: 1280,
       xxl: 1536,
-      '2xl': 1536
+      '2xl': 1536,
     },
-  }
+  },
 }

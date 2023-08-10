@@ -1,7 +1,7 @@
 <template>
   <section id="cv">
     <div class="wrapper">
-      <h2 class="section-headline">
+      <h2 class="section-headline" data-aos="fade">
         Back in the days<span class="lachs-text">!</span>
       </h2>
       <ul class="experience-list">
@@ -23,6 +23,9 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 export default {
   data() {
     return {
@@ -46,13 +49,16 @@ export default {
         {
           year: {
             start: '2020',
-            end: '2021',
+            end: '2023',
           },
           education: 'Floatwork',
           task: 'Wordpress Webdevelopment',
         },
       ],
     }
+  },
+  mounted() {
+    AOS.init()
   },
 }
 </script>

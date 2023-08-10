@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <h2 class="section-headline">About me<span class="lachs-text">!</span></h2>
+  <section class="intro-text-section">
+    <h2 class="section-headline" data-aos="fade">
+      About me<span class="lachs-text">!</span>
+    </h2>
 
     <article>
       <div class="intro-text-container">
-        <p class="intro-text-main">
+        <p class="intro-text-main" data-aos="fade-up">
           Hi, I'm <span class="lachs-text">Thomas Kohlmannhuber</span>, a
           frontend developer based in Vienna, specializing in building websites
           with WordPress and Vue.js. With a passion for coding and a keen eye
@@ -14,7 +16,7 @@
           expertise and skill set to create a website that not only looks great
           but also functions flawlessly.
         </p>
-        <p class="intro-text">
+        <p class="intro-text" data-aos="fade-up" data-aos-delay="100">
           My approach to web development is rooted in collaboration,
           communication, and attention to detail. I take the time to listen to
           my clients and understand their goals and objectives before beginning
@@ -28,8 +30,17 @@
         </p>
       </div>
     </article>
-  </div>
+  </section>
 </template>
+<script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+export default {
+  mounted() {
+    AOS.init()
+  },
+}
+</script>
 
 <style lang="scss" scoped>
 @import '~assets/scss/main';

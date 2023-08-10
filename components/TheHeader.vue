@@ -90,7 +90,7 @@ header {
 }
 .active .line:first-child {
   transform-origin: bottom;
-  transform: rotatez(45deg) translate(-6px, 10px);
+  transform: rotatez(45deg) translate(-9px, 11px);
 }
 
 .active .line:nth-of-type(2) {
@@ -100,7 +100,7 @@ header {
 
 .active .line:nth-of-type(3) {
   transform-origin: bottom;
-  width: 55%;
-  transform: translate(-2px, -4px) rotatez(45deg);
+  width: 50%;
+  transform: translate(-3px, -3px) rotatez(45deg);
 }
 </style>
