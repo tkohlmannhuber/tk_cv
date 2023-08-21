@@ -7,15 +7,15 @@
       <ul class="experience-list">
         <li
           v-for="year in experienceData"
-          :key="year.task"
+          :key="year.job"
           class="experience-item"
         >
           <h3>
             <span>{{ year.year.start }}</span
             ><span>{{ year.year.end }}</span>
           </h3>
-          <h4>{{ year.education }}</h4>
-          <p v-if="year.task">{{ year.task }}</p>
+          <h4>{{ year.company }}</h4>
+          <p v-if="year.job">{{ year.job }}</p>
         </li>
       </ul>
     </div>
@@ -35,24 +35,24 @@ export default {
             start: '2008',
             end: '2019',
           },
-          education: 'Greiner Bio One',
-          task: 'Elektroanlagentechniker',
+          company: 'Greiner Bio One',
+          job: 'Elektroanlagentechniker',
         },
         {
           year: {
             start: '2019',
             end: '2021',
           },
-          education: 'SAE Wien',
-          task: 'Webdesign & Webdevelopment',
+          company: 'SAE Wien',
+          job: 'Webdesign & Webdevelopment Course',
         },
         {
           year: {
             start: '2020',
             end: '2023',
           },
-          education: 'Floatwork',
-          task: 'Wordpress Webdevelopment',
+          company: 'Floatwork',
+          job: 'Fullstack Webdevelopment',
         },
       ],
     }
@@ -178,7 +178,7 @@ section {
 
   h4 {
     font-family: var(--text-font);
-    font-weight: var(--text-font-weight-medium);
+    font-weight: var(--text-font-weight-bold);
     font-size: 1.5em;
     text-align: center;
     line-height: 1;

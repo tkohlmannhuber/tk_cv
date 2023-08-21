@@ -24,31 +24,31 @@
         </div>
       </a> -->
       <a href="https://radio-mora.at" class="single-slide">
-        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <img src="~/assets/images/project-slider/radio-mora-desk.png" alt="" />
         <div>
           <h3>Radio Mora</h3>
         </div>
       </a>
-      <a href="https://weinburgenland.711.at" class="single-slide">
+      <a href="https://weinburgenland.at" class="single-slide">
         <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
         <div>
           <h3>Weinburgenland</h3>
         </div>
       </a>
       <a href="https://weinburgenland.711.at" class="single-slide">
-        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <img src="~/assets/images/project-slider/vabraun-desk.png" alt="" />
         <div>
-          <h3>Weinburgenland</h3>
+          <h3>Va Braun</h3>
         </div>
       </a>
       <a href="https://mcs.at" class="single-slide">
-        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <img src="~/assets/images/project-slider/mcs-desk.png" alt="" />
         <div>
           <h3>MCS</h3>
         </div>
       </a>
       <a href="https://wasserspass.at" class="single-slide">
-        <img src="~/assets/images/project-slider/wein-desk.png" alt="" />
+        <img src="~/assets/images/project-slider/wasserspass-desk.png" alt="" />
         <div>
           <h3>Wasserspass</h3>
         </div>

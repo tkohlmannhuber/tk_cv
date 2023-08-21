@@ -24,9 +24,8 @@
           customized solution that meets their specific needs. With a focus on
           user experience and accessibility, I ensure that every website I build
           is not only visually stunning but also easy to navigate and use.
-          Whether you need a simple brochure site or a complex e-commerce
-          platform, I am committed to delivering a website that exceeds your
-          expectations.
+          Whether you need a simple brochure site or a more complex website, I
+          am committed to delivering a website that exceeds your expectations.
         </p>
       </div>
     </article>

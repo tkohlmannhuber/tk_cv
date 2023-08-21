@@ -29,19 +29,19 @@ export default {
       experienceCards: [
         {
           type: 'Backend',
-          items: ['php'],
+          items: ['php', 'laravel', 'sage'],
         },
         {
           type: 'Frontend',
-          items: ['css3', 'html 5', 'javascript'],
+          items: ['css3', 'html 5', 'javascript', 'Tailwind CSS', 'vue.js'],
         },
         {
           type: 'CMS',
           items: ['Wordpress', 'sanity.io'],
         },
         {
-          type: 'Frameworks',
-          items: ['vue.js', 'nuxt.js', 'laravel', 'tailwind'],
+          type: 'Languages',
+          items: ['english', 'german - native'],
         },
       ],
     }
