@@ -1,0 +1,15 @@
+[build]
+  # Use Node.js version 16.x
+  node_version = "18.x"
+  # Directory where the Nuxt.js build output is stored
+  publish = "dist"
+  # Command to run your Nuxt.js build process
+  command = "npm run generate"
+
+[context.production]
+  # Environment specific settings for production
+  environment = { 
+    NUXT_ENV = "production" 
+  }
+
+
