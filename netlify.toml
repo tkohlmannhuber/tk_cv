@@ -6,10 +6,6 @@
   # Command to run your Nuxt.js build process
   command = "npm run generate"
 
-[context.production]
-  # Environment specific settings for production
-  environment = { 
-    NUXT_ENV = "production" 
-  }
+
 
 
