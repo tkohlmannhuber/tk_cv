@@ -35,7 +35,7 @@
           <h3>Weinburgenland</h3>
         </div>
       </a> -->
-      <a href="https://weinburgenland.711.at" class="single-slide">
+      <a href="https://vabraun.at" class="single-slide">
         <img src="~/assets/images/project-slider/vabraun-desk.png" alt="" />
         <div>
           <h3>Va Braun</h3>
