@@ -3,4 +3,4 @@
   publish = "dist"
 
 [context.production.environment]
-  NODE_VERSION = "16.10.0"
+  NODE_VERSION = "20"
