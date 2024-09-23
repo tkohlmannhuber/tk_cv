@@ -41,7 +41,7 @@
           <h3>MCS</h3>
         </div>
       </a>
-      <a href="https://wasserspass.at" class="single-slide">
+      <a href="https://wasserspass.net" class="single-slide">
         <img src="~/assets/images/project-slider/wasserspass-desk.png" alt="" />
         <div>
           <h3>Wasserspass</h3>
