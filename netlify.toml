@@ -1,2 +1,6 @@
 [build]
-  node_version = "16.x"
+  command = "npm run generate"
+  publish = "dist"
+
+[context.production.environment]
+  NODE_VERSION = "16.10.0"
