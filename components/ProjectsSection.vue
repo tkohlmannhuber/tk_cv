@@ -4,25 +4,6 @@
       Projects<span class="lachs-text">!</span>
     </h2>
     <div class="projects-grid">
-      <!-- <a href="https://ipito.surf">
-        <img
-          src="~/assets/images/project-slider/ipito-desk.png"
-          alt="Ipito Website image"
-        />
-        <div>
-          <h3>IPITO</h3>
-          <ul>
-            <li>Final Project SAE</li>
-            <li>Vue.js & Laravel</li>
-          </ul>
-        </div>
-      </a> -->
-      <!-- <a href="https://brewage.711.at" class="single-slide">
-        <img src="~/assets/images/project-slider/brew-desk.png" alt="" />
-        <div>
-          <h3>Brewage</h3>
-        </div>
-      </a> -->
       <a href="https://radio-mora.at" class="single-slide">
         <img src="~/assets/images/project-slider/radio-mora-desk.png" alt="" />
         <div>
