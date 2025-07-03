@@ -49,7 +49,7 @@ export default {
         {
           year: {
             start: '2020',
-            end: '2023',
+            end: '2025',
           },
           company: 'Floatwork',
           job: 'Fullstack Webdevelopment',
