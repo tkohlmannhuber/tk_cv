@@ -7,14 +7,14 @@
     <article>
       <div class="intro-text-container">
         <p class="intro-text-main" data-aos="fade-up">
-          Hi, I'm <span class="lachs-text">Thomas Kohlmannhuber</span>, a
-          frontend developer based in Vienna, specializing in building websites
-          with WordPress and Vue.js. With a passion for coding and a keen eye
-          for design, I strive to deliver unique and dynamic web experiences
-          that meet the specific needs of my clients. Whether you are a small
-          business owner, a startup, or a large corporation, I have the
-          expertise and skill set to create a website that not only looks great
-          but also functions flawlessly.
+          Hi, I’m <span class="lachs-text">Thomas Kohlmannhuber</span>, a
+          frontend developer based in Vienna with a strong focus on creating
+          modern, performant, and user-friendly web interfaces. I specialize in
+          working with contemporary frontend technologies such as Vue.js, Nuxt,
+          and Tailwind CSS, and bring a solid understanding of design principles
+          to every project. I’m always eager to expand my skill set, explore new
+          technologies, and continuously improve both my code and the user
+          experience.
         </p>
         <p class="intro-text" data-aos="fade-up" data-aos-delay="100">
           My approach to web development is rooted in collaboration,
