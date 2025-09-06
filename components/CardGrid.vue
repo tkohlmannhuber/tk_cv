@@ -29,7 +29,7 @@ export default {
       experienceCards: [
         {
           type: 'Backend',
-          items: ['php', 'laravel', 'sage'],
+          items: ['php'],
         },
         {
           type: 'Frontend',
@@ -37,7 +37,7 @@ export default {
         },
         {
           type: 'CMS',
-          items: ['Wordpress', 'sanity.io'],
+          items: ['Wordpress', 'strapi'],
         },
         {
           type: 'Languages',

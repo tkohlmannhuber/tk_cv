@@ -4,18 +4,6 @@
       Projects<span class="lachs-text">!</span>
     </h2>
     <div class="projects-grid">
-      <a href="https://radio-mora.at" class="single-slide">
-        <img src="~/assets/images/project-slider/radio-mora-desk.png" alt="" />
-        <div>
-          <h3>Radio Mora</h3>
-        </div>
-      </a>
-      <a href="https://vabraun.at" class="single-slide">
-        <img src="~/assets/images/project-slider/vabraun-desk.png" alt="" />
-        <div>
-          <h3>Va Braun</h3>
-        </div>
-      </a>
       <a href="https://mcs.at" class="single-slide">
         <img src="~/assets/images/project-slider/mcs-desk.png" alt="" />
         <div>
@@ -26,6 +14,12 @@
         <img src="~/assets/images/project-slider/wasserspass-desk.png" alt="" />
         <div>
           <h3>Wasserspass</h3>
+        </div>
+      </a>
+      <a href="https://forumverfassung.at" class="single-slide">
+        <img src="~/assets/images/project-slider/sfv.png" alt="" />
+        <div>
+          <h3>Forumverfassung</h3>
         </div>
       </a>
     </div>
